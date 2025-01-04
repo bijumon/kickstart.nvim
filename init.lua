@@ -967,9 +967,5 @@ require('lazy').setup({
   },
 })
 
-if vim.g.neovide == true then
-  vim.api.nvim_set_keymap('n', '<F11>', ':let g:neovide_fullscreen = !g:neovide_fullscreen<CR>', {})
-end
-
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
